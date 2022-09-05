@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Patika {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Matematik notunuzu giriniz : ");
+        int mat = scanner.nextInt();
+        System.out.print("Fizik notunuzu giriniz : ");
+        int fiz = scanner.nextInt();
+        System.out.print("Kimya notunuzu giriniz : ");
+        int kim = scanner.nextInt();
+        System.out.print("Turkce notunuzu giriniz : ");
+        int tur = scanner.nextInt();
+        System.out.print("Tarih notunuzu giriniz : ");
+        int tar = scanner.nextInt();
+        System.out.print("Muzik notunuzu giriniz : ");
+        int müz = scanner.nextInt();
+
+        int toplam = mat + fiz + kim + tur + tar + müz;
+        int ort = toplam/6;
+        System.out.print("Ortalama :  "+ort);
+
+
+
+
+    }
+}
